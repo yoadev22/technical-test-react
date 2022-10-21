@@ -16,8 +16,10 @@ To start a local development environment, run
 npm run dev
 ```
 
-React v18 is used in this setup. 
-The only external libary is @emotion/react @emotion/styled. It is not really required to complete this challenge, but it provides an esay way to write styled components, instead of pain css.
+React v18 is used in this setup.  
+<br/>
+The only external libaries are _@emotion/react_,  _@emotion/styled_.   
+While is not really required to complete this challenge, it provides an esay way to write **styled components**, instead of plain css.
 
 Example of styled component:
 
