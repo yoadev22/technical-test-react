@@ -19,7 +19,7 @@ npm run dev
 React v18 is used in this setup.  
 <br/>
 The only external libaries are _@emotion/react_,  _@emotion/styled_.   
-While is not really required to complete this challenge, it provides an esay way to write **styled components**, instead of plain css.
+While is not really required to complete this challenge, it provides an esay way to write **styled components**, without writing seperate css files.
 
 Example of styled component:
 
@@ -27,6 +27,7 @@ Example of styled component:
 const Container = styled.div`
   display: flex;
   padding: ${props => props.pd};
+  /* ...other css stuff */
 `
 
 //... some other JSX Component 
