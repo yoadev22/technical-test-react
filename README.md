@@ -30,7 +30,7 @@ const Container = styled.div`
   /* ...other css stuff */
 `
 
-//... some other JSX Component 
+//a React Component 
 function MyComponent() {
     return
       <>
