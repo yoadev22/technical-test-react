@@ -33,12 +33,6 @@ const Slide = styled.div`
     transition: all 350ms ease-in-out;
 `;
 
-const Flex = styled.div`
-    display: flex;
-    align-items: center;
-    gap: ${(props) => (props.gap ? props.gap + "rem" : "0.7rem")};
-`;
-
 const ControlArea = styled.div`
     position: absolute;
     left: 50%;
@@ -49,6 +43,12 @@ const ControlArea = styled.div`
     gap: 0.7rem;
     align-items: center;
     padding: 0.5rem;
+`;
+
+const Flex = styled.div`
+    display: flex;
+    align-items: center;
+    gap: ${(props) => (props.gap ? props.gap + "rem" : "0.7rem")};
 `;
 
 export function ImageSlider() {
