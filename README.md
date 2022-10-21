@@ -5,7 +5,7 @@ Please write an image slider React component similar to the one in the [demo vid
 
 
 ## Instruction
-This React project is bundled by Vite, instead of the usual create-react-app (webpack)  
+This React project is bundled by _Vite_, instead of the usual create-react-app setup (i.e. webpack)  
 
 After clone this project, you need to install the packages by running
 ```bash
@@ -29,7 +29,7 @@ const Container = styled.div`
   padding: ${props => props.pd};
 `
 
-//... some JSX Component 
+//... some other JSX Component 
 function MyComponent() {
     return
       <>
