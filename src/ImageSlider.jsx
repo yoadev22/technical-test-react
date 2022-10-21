@@ -65,7 +65,7 @@ export function ImageSlider() {
 
     function prevSlide() {
         setCurrentIndex((prev) => {
-            if (prev < 0) {
+            if (prev === 0) {
                 return IMAGE_SET.length - 1;
             }
             return prev - 1;
