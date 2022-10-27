@@ -19,6 +19,8 @@ export default function ColorGuesser() {
     const [color, setColor] = useState("");
     const [answers, setAnswers] = useState([]);
     const [result, setResult] = useState(undefined);
+    const [correctCount, setCorrectcCount] = useState(0);
+    const [wrongCount, setWrongCount] = useState(0);
 
     const generateColor = () => {
         const actualColor = getRandomColor();
@@ -37,9 +39,11 @@ export default function ColorGuesser() {
     const handleAnswerClicked = (answer) => {
         if (answer === color) {
             setResult("correct");
+            setCorrectcCount((prev) => prev + 1);
             generateColor();
         } else {
             setResult("wrong");
+            setWrongCount((prev) => prev + 1);
         }
     };
 
@@ -59,6 +63,12 @@ export default function ColorGuesser() {
             </div>
             {result === "wrong" && <div className="wrong">Wrong Answer</div>}
             {result === "correct" && <div className="correct">Correct!</div>}
+
+            <div className="tally">
+                <span> Correct: {correctCount}</span>
+
+                <span> Wrong: {wrongCount}</span>
+            </div>
         </div>
     );
 }

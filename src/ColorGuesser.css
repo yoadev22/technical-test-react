@@ -27,3 +27,8 @@
 .wrong {
     color: red;
 }
+
+.tally {
+    display: flex;
+    gap: 1rem;
+}
