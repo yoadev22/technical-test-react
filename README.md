@@ -9,7 +9,7 @@ This React project is bundled by _Vite_, instead of the usual create-react-app s
 
 After cloning this project, you need to install the packages by running
 ```bash
-npm run install
+npm install
 ```
 To start a local development environment, run
 ```bash
