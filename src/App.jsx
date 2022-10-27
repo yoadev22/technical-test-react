@@ -1,9 +1,9 @@
-import { ImageSlider } from "./ImageSlider";
+import ColorGuesser from "./ColorGuesser";
 
 function App() {
     return (
         <div className="App">
-            <ImageSlider />
+            <ColorGuesser />
         </div>
     );
 }

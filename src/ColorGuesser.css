@@ -1,0 +1,29 @@
+.color-guesser {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 50px auto;
+}
+.guessbox {
+    width: 200px;
+    height: 200px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.choices button {
+    padding: 0.2rem 0.4rem;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
